@@ -1,8 +1,6 @@
-const logDOM = document.querySelector ('.logo');
-
-    function handleLogoClick () {
-        console.log ('Buvo paspaustas click');
+import { socials } from "./components/socials/socials";
+import { socialsData } from "./data/socialsData";
 
 
-    }
-    logDOM.addEventListener('click', handleLogoClick);
+
+socials('#socials_block', socialsData);
